@@ -2,7 +2,7 @@
 -- Use LuaRocks if available
 pcall(require, "luarocks.require");
 
-local socket = require"socket";
+local socket = require("socket");
 
 -- Load LuaSec if available
 pcall(require, "ssl");
